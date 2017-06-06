@@ -1,0 +1,68 @@
+<!--Animal Wiki
+Craft a site with information about turtles, snakes, and insects (or another three animals or items of your choosing).
+
+The page should ask the user which animal they'd like to learn about.
+When a user clicks an animal, display a div containing information about that animal (including pictures!).
+If they later select a different animal, make sure to hide this div before displaying information about another animal.-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+        <title>The Dopest Animals!</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="radio">
+        <h1>Which Awesome Animal Do you want to learn about?</h1>
+        <label>
+          <input type="radio" name="animal" value="snakes">
+          Snakes
+        </label>
+        <label>
+          <input type="radio" name="animal" value="arachnids">
+          Arachnids
+        </label>
+        <label>
+          <input type="radio" name="animal" value="frogsandtoads">
+          Frogs and Toads
+        </label>
+        <label>
+          <input type="radio" name="animal" value="sharks">
+          Sharks
+        </label>
+      </div>
+      <div id="snakes">
+        <ul>
+          <li>awesome snakes!</li>
+          <li>Woooah!</li>
+          <li> <a href="http://kids.nationalgeographic.com/content/dam/kids/photos/articles/Other%20Explore%20Photos/R-Z/Super%20Snakes/Snakes-fangs.ngsversion.1413818001976.adapt.1900.1.jpg">Tubular!</a></li>
+        </ul>
+      </div>
+      <div id="arachnids">
+        <ul>
+          <li>awesome spiders and scorpions!</li>
+          <li>Woooah!</li>
+          <li><a href="http://www.camelspidersworld.com/wp-content/uploads/2015/10/Camel-Spider-Vs-Scorpion.jpg">Tubular!</a></li>
+        </ul>
+      </div>
+      <div id="frogsandtoads">
+        <ul>
+          <li>awesome frogs and toads!</li>
+          <li>Woooah!</li>
+          <li><a href="http://kids.nationalgeographic.com/content/dam/kids/photos/animals/Amphibians/H-P/poison-dart-frog-blue.jpg.adapt.945.1.jpg">Tubular!</a></li>
+        </ul>
+      </div>
+      <div id="sharks">
+        <ul>
+          <li>awesome sharks!</li>
+          <li>Woooah!</li>
+          <li><a href="http://i.dailymail.co.uk/i/pix/2015/04/03/16/2742E26A00000578-0-image-a-74_1428073670263.jpg">Tubular!</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </body>
+</html>
